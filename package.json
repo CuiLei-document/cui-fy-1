@@ -1,0 +1,23 @@
+{
+  "name": "cui-fy-1",
+  "version": "1.0.1",
+  "main": "dist/main.js",
+  "scripts": {
+    "start": "ts-node-dev src/main.ts"
+  },
+  "bin": {
+    "fy": "dist/cli.js"
+  },
+  "files": [
+    "dist/**/*.js"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "commander": "^8.1.0",
+    "md5": "^2.3.0"
+  },
+  "devDependencies": {
+    "@types/md5": "^2.3.1",
+    "@types/node": "^16.6.2"
+  }
+}
